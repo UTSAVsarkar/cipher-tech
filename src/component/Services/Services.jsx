@@ -9,7 +9,7 @@ function Services() {
   return (
     <div style={{ marginTop: 100 }}>
       <center>
-        <Card style={{ width: "30rem" }}>
+        <Card style={{ margin: 10 }}>
           <div>
             <DesignServicesIcon style={{ fontSize: "10em", color: "gray" }} />
           </div>
