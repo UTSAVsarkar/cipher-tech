@@ -48,43 +48,68 @@ function About({ setCurrPage, currPage }) {
             </blockquote>
           </Card.Body>
         </Card>
-        <div className="container">
-          <Card border="primary" className="box">
-            <Card.Header>
+
+        <br />
+
+        <Card style={{ marginBottom: 10 }}>
+          <Card.Header>
+            <Stack>
               <Stack>
-                <LiveTvIcon style={{ fontSize: "10em", color: "#097969" }} />
-                Our Vision
+                <div>
+                  <LiveTvIcon style={{ fontSize: "10em", color: "#097969" }} />
+                </div>
+                <h1>Our Vision</h1>
               </Stack>
-            </Card.Header>
-            <Card.Body>
-              <Card.Text>
-                Our goal is to become a trusted advisor for all our customers,
-                providing unparalleled expertise and guidance. We strive to lead
-                the industry in system integration, serving as a comprehensive,
-                one-stop solution for all our customers' needs.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card border="secondary" className="box">
-            <Card.Header>
-              <Stack>
+            </Stack>
+          </Card.Header>
+          <Card.Body>
+            <blockquote className="blockquote mb-0">
+              As leaders in system integration, we pride ourselves on our
+              ability to seamlessly connect disparate systems and technologies,
+              creating cohesive and efficient solutions that drive our
+              customers' success. We stay at the forefront of technological
+              advancements, continuously innovating and refining our methods to
+              offer cutting-edge solutions that deliver measurable results. Our
+              comprehensive approach means that we are equipped to handle every
+              aspect of our customers' integration needs, from initial
+              consultation and planning to implementation and ongoing support.
+              We take a holistic view, considering all facets of our customers'
+              operations to provide solutions that enhance productivity,
+              streamline processes, and reduce costs.
+            </blockquote>
+          </Card.Body>
+        </Card>
+
+        <br />
+
+        <Card style={{ marginBottom: 10 }}>
+          <Card.Header>
+            <Stack>
+              <div>
                 <MilitaryTechIcon
                   style={{ fontSize: "10em", color: "#097969" }}
                 />
-                Our Mission
-              </Stack>
-            </Card.Header>
-            <Card.Body>
-              <Card.Text>
-                Our mission is to deliver top-tier IT hardware and software
-                solutions by partnering with leading technology providers. We
-                aim to become the preferred IT solution provider for all our
-                customers through innovation, excellence, and unparalleled
-                service.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
+              </div>
+              <h1>Our Mission</h1>
+            </Stack>
+          </Card.Header>
+          <Card.Body>
+            <blockquote className="blockquote mb-0">
+              Our mission is to deliver top-tier IT hardware and software
+              solutions by partnering with leading technology providers. We aim
+              to become the preferred IT solution provider for all our customers
+              through innovation, excellence, and unparalleled service. In a
+              world where technology evolves at an unprecedented pace,
+              businesses need reliable IT solutions that can keep up with their
+              dynamic needs. We are committed to providing our customers with
+              the most advanced and effective IT hardware and software solutions
+              available. By collaborating with the foremost technology
+              providers, we ensure that our offerings are at the cutting edge of
+              the industry, combining quality, performance, and reliability.
+            </blockquote>
+          </Card.Body>
+        </Card>
+
         <Button
           variant="success"
           style={{
