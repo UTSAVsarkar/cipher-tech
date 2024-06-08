@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cipher-tech/static/css/main.1f2a9e17.css",
-    "main.js": "/cipher-tech/static/js/main.268d3b8b.js",
+    "main.css": "/cipher-tech/static/css/main.0f41157a.css",
+    "main.js": "/cipher-tech/static/js/main.81e1cc44.js",
     "static/js/453.ed3810f9.chunk.js": "/cipher-tech/static/js/453.ed3810f9.chunk.js",
     "index.html": "/cipher-tech/index.html",
-    "main.1f2a9e17.css.map": "/cipher-tech/static/css/main.1f2a9e17.css.map",
-    "main.268d3b8b.js.map": "/cipher-tech/static/js/main.268d3b8b.js.map",
+    "main.0f41157a.css.map": "/cipher-tech/static/css/main.0f41157a.css.map",
+    "main.81e1cc44.js.map": "/cipher-tech/static/js/main.81e1cc44.js.map",
     "453.ed3810f9.chunk.js.map": "/cipher-tech/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f2a9e17.css",
-    "static/js/main.268d3b8b.js"
+    "static/css/main.0f41157a.css",
+    "static/js/main.81e1cc44.js"
   ]
 }
