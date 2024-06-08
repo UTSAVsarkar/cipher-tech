@@ -5,7 +5,10 @@ import Home from "./component/Home/Home";
 import Services from "./component/Services/Services";
 import Solutions from "./component/Solutions/Solutions";
 import CustomNavbar from "./component/CustomNavbar/CustomNavbar";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Stack } from "react-bootstrap";
 
 function App() {
   const [currPage, setCurrPage] = useState(0);
@@ -45,7 +48,25 @@ function App() {
           bottom: 0,
         }}
       >
-        <div>© Cipher tech infowars Pvt Ltd</div>
+        <Stack
+          gap={2}
+          className="col-md-5 mx-auto"
+          style={{ alignItems: "center", marginTop: 5 }}
+        >
+          <Stack
+            direction="horizontal"
+            gap={2}
+            style={{ justifyContent: "center" }}
+          >
+            <div>
+              <FacebookIcon style={{ fontSize: "2em" }} />
+            </div>
+            <div>
+              <LinkedInIcon style={{ fontSize: "2em" }} />
+            </div>
+          </Stack>
+          <div>© Cipher tech infowars Pvt Ltd.</div>
+        </Stack>
       </div>
     </>
   );

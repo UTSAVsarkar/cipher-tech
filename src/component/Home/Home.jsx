@@ -3,6 +3,7 @@ import CustomCarousel from "../CustomCarousel/CustomCarousel";
 import CustomCards from "../CustomCards/CustomCards";
 import About from "../About/About";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Contact from "../Contact/Contact";
 
 function Home({ setCurrPage, currPage }) {
   return (
@@ -10,6 +11,7 @@ function Home({ setCurrPage, currPage }) {
       <CustomCarousel />
       <About setCurrPage={setCurrPage} currPage={currPage} />
       <CustomCards />
+      <Contact />
     </>
   );
 }
