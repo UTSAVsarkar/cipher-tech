@@ -79,7 +79,7 @@ function Solutions() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="#second" onClick={() => setPow(false)}>
-                Our power solutions include
+                Solutions
               </Nav.Link>
             </Nav.Item>
           </Nav>
