@@ -26,5 +26,6 @@
 @media (max-width: 600px) {
   .box {
     flex: 1 0 100%; /* Full width for mobile: 1 box per row */
+    width: 100%;
   }
 }

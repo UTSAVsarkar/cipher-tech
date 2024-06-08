@@ -14,7 +14,11 @@ function CustomCards() {
   return (
     <div className="container">
       {items.map((item) => {
-        return <div className="box">{item}</div>;
+        return (
+          <div key={item} className="box">
+            {item}
+          </div>
+        );
       })}
     </div>
   );

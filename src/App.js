@@ -13,9 +13,9 @@ function App() {
   function renderPage() {
     switch (currPage) {
       case 0:
-        return <Home setCurrPage={setCurrPage} />;
+        return <Home setCurrPage={setCurrPage} currPage={currPage} />;
       case 1:
-        return <About setCurrPage={setCurrPage} />;
+        return <About setCurrPage={setCurrPage} currPage={currPage} />;
       case 2:
         return <Solutions />;
       case 3:
@@ -23,14 +23,14 @@ function App() {
       case 4:
         return <Contact />;
       default:
-        return <Home />;
+        return <Home setCurrPage={setCurrPage} currPage={currPage} />;
     }
   }
 
   return (
     <>
       <CustomNavbar currPage={currPage} setCurrPage={setCurrPage} />
-      <div style={{ marginTop: "4%" }}>{renderPage()}</div>
+      <div style={{ marginTop: "4%", paddingBottom: 120 }}>{renderPage()}</div>
       <div
         style={{
           background: "black",
@@ -40,9 +40,12 @@ function App() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          position: "fixed",
+          left: 0,
+          bottom: 0,
         }}
       >
-        <div>© 2020 MAINTINED BY : MURK TECHNOSOFT LLP TEAM</div>
+        <div>© Cipher tech infowars Pvt Ltd</div>
       </div>
     </>
   );
