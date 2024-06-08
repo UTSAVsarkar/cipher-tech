@@ -8,6 +8,7 @@ function CustomNavbar() {
   const [activeKey, setActiveKey] = useState("");
 
   useEffect(() => {
+    console.log(window.location);
     const pathname = window.location.pathname; // Pathname
     setActiveKey(pathname);
   }, []);
@@ -29,7 +30,7 @@ function CustomNavbar() {
             className="ml-auto"
           >
             <Nav.Item>
-              <Nav.Link eventKey="/" href="/">
+              <Nav.Link eventKey="/cipher-tech" href="/cipher-tech">
                 <b>Home</b>
               </Nav.Link>
             </Nav.Item>
