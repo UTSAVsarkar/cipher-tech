@@ -69,7 +69,7 @@ function App() {
               <EmailIcon style={{ fontSize: "2em" }} />
             </div>
           </Stack>
-          <div>© Cipher tech infowars Pvt Ltd.</div>
+          <div>© Ciphertech Infoways Pvt Ltd.</div>
         </Stack>
       </div>
     </>

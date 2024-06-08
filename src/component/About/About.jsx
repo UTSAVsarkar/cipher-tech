@@ -25,7 +25,7 @@ function About({ setCurrPage, currPage }) {
             <blockquote className="blockquote mb-0">
               <p>
                 {" "}
-                Cipher Tech Infowars Pvt Ltd is a premier IT Services Integrator
+                Ciphertech Infoways Pvt Ltd. is a premier IT Services Integrator
                 dedicated to delivering world-class IT infrastructure solutions
                 to customers across India. With a commitment to excellence and
                 innovation, we provide comprehensive and robust IT services
