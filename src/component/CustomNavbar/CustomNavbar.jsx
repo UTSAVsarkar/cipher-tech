@@ -15,7 +15,7 @@ function CustomNavbar() {
   return (
     <Navbar expand="lg" bg="light" variant="light" fixed="top">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/cipher-tech">
           <i>Logo</i>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,7 +29,7 @@ function CustomNavbar() {
             className="ml-auto"
           >
             <Nav.Item>
-              <Nav.Link eventKey="/" href="/">
+              <Nav.Link eventKey="/cipher-tech" href="/cipher-tech">
                 <b>Home</b>
               </Nav.Link>
             </Nav.Item>

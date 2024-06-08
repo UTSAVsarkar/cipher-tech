@@ -18,7 +18,7 @@ root.render(
     <div style={{ marginTop: "4%" }}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/cipher-tech" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/services" element={<Services />} />
