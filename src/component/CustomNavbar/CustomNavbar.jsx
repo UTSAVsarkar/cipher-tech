@@ -34,7 +34,7 @@ function CustomNavbar() {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="/about" href="/about">
+              <Nav.Link eventKey="/cipher-tech/about" href="/cipher-tech/about">
                 <b>About Us</b>
               </Nav.Link>
             </Nav.Item>

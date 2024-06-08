@@ -19,7 +19,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path="/cipher-tech" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/cipher-tech/about" element={<About />} />
           <Route path="/solutions" element={<Solutions />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
