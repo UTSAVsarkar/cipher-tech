@@ -29,12 +29,12 @@ function CustomNavbar() {
             className="ml-auto"
           >
             <Nav.Item>
-              <Nav.Link eventKey="/cipher-tech" href="/cipher-tech">
+              <Nav.Link eventKey="/" href="/">
                 <b>Home</b>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="/cipher-tech/about" href="/cipher-tech/about">
+              <Nav.Link eventKey="/about" href="/about">
                 <b>About Us</b>
               </Nav.Link>
             </Nav.Item>
