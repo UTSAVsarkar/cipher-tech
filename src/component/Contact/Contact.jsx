@@ -51,7 +51,7 @@ function Contact() {
         </InputGroup>
         <br />
 
-        <Button variant="contained">Contained</Button>
+        <Button variant="contained">Submit</Button>
       </div>
     </center>
   );
