@@ -7,6 +7,7 @@ import Solutions from "./component/Solutions/Solutions";
 import CustomNavbar from "./component/CustomNavbar/CustomNavbar";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Stack } from "react-bootstrap";
 
@@ -63,6 +64,9 @@ function App() {
             </div>
             <div>
               <LinkedInIcon style={{ fontSize: "2em" }} />
+            </div>
+            <div>
+              <EmailIcon style={{ fontSize: "2em" }} />
             </div>
           </Stack>
           <div>© Cipher tech infowars Pvt Ltd.</div>
