@@ -21,11 +21,7 @@ function CustomNavbar({ currPage, setCurrPage }) {
           id="basic-navbar-nav"
           className="justify-content-center"
         >
-          <Nav
-            // activeKey={activeKey}
-            // onSelect={(selectedKey) => setActiveKey(selectedKey)}
-            className="ml-auto"
-          >
+          <Nav className="ml-auto">
             <Nav.Item>
               <Nav.Link
                 active={currPage === 0}

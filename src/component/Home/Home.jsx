@@ -4,11 +4,11 @@ import CustomCards from "../CustomCards/CustomCards";
 import About from "../About/About";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Home() {
+function Home({ setCurrPage }) {
   return (
     <>
       <CustomCarousel />
-      <About />
+      <About setCurrPage={setCurrPage} />
       <CustomCards />
     </>
   );
